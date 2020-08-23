@@ -1,0 +1,14 @@
+// библиотека normalize.css
+@import "libs";
+// Шрифты 
+@import "fonts";
+// mixin 
+@import "vars";
+// глобальные стили для страницы + стили которые повторяються по странице
+@import "global";
+// header стили главной секции
+@import "header";
+
+
+
+// ================== media requests / медиа запросы 

@@ -1,0 +1,46 @@
+.header{
+  position: relative;
+
+  &__bg{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/mokh.jpg');
+  }
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  &__img {
+
+    & img {
+      width: 45px;
+      height: 45px;
+    }
+  }
+
+  &__text {}
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 600px;
+
+  &__item {
+    display: block;
+
+    & a {
+      color: #ffffff;
+    }
+
+  }
+}
