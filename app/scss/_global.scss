@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
   scroll-behavior: smooth;
   position: relative;
-  // background-color: firebrick;
+  background-color: firebrick;
 }
 
 body {
@@ -47,3 +47,6 @@ li {
 }
 
 
+.timer{
+  transition: 1s;
+}
